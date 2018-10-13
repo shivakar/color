@@ -1,12 +1,8 @@
-# Archived project. No maintenance. 
+# Fork
 
-This project is not maintained anymore and is archived. Feel free to fork and
-make your own changes if needed. For more detail read my blog post: [Taking an indefinite sabbatical from my projects](https://arslan.io/2018/10/09/taking-an-indefinite-sabbatical-from-my-projects/)
+This project is a fork of [Fatih Arslan's color package](https://github.com/shivakar/color), since it is [no longer maintained](https://arslan.io/2018/10/09/taking-an-indefinite-sabbatical-from-my-projects/)
 
-Thanks to everyone for their valuable feedback and contributions.
-
-
-# Color [![GoDoc](https://godoc.org/github.com/fatih/color?status.svg)](https://godoc.org/github.com/fatih/color) [![Build Status](https://img.shields.io/travis/fatih/color.svg?style=flat-square)](https://travis-ci.org/fatih/color)
+# Color [![GoDoc](https://godoc.org/github.com/shivakar/color?status.svg)](https://godoc.org/github.com/shivakar/color) [![Build Status](https://img.shields.io/travis/shivakar/color.svg?style=flat-square)](https://travis-ci.org/shivakar/color)
 
 Color lets you use colorized outputs in terms of [ANSI Escape
 Codes](http://en.wikipedia.org/wiki/ANSI_escape_code#Colors) in Go (Golang). It
@@ -20,7 +16,7 @@ suits you.
 ## Install
 
 ```bash
-go get github.com/fatih/color
+go get github.com/shivakar/color
 ```
 
 Note that the `vendor` folder is here for stability. Remove the folder if you
@@ -176,10 +172,10 @@ c.Println("This prints again cyan...")
 
 ## Credits
 
- * [Fatih Arslan](https://github.com/fatih)
+ * [Fatih Arslan](https://github.com/shivakar)
  * Windows support via @mattn: [colorable](https://github.com/mattn/go-colorable)
 
 ## License
 
-The MIT License (MIT) - see [`LICENSE.md`](https://github.com/fatih/color/blob/master/LICENSE.md) for more details
+The MIT License (MIT) - see [`LICENSE.md`](https://github.com/shivakar/color/blob/master/LICENSE.md) for more details
 
